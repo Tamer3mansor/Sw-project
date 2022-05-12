@@ -1,21 +1,29 @@
-// import "./txt.css";
+import "../css/txt.css";
 const Text = () =>
 {
-    return <div>
-        <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col">
-            <h1> Welcome to Flight Booking App </h1>
-          </div>
+    return <div >
+        <div className="container" id="cont">
+        <div className="row justify-content-md-center">
+        <div className="col">
+        <br></br>
+            <h1> Welcome to Flight Booking App</h1>
         </div>
-        <div class="row justify-content-md-center">
-          <div class="col">
-            <a href="" target="-blank">
-            <button type="button" class="btn btn-outline-primary" onclick="">Search Flight Here </button>
-            </a>
+        </div>
+        <div className="row justify-content-md-center">
+          <div className="col">
+            <br></br> <br></br>
+           <a href="" target="-blank">
+          <button class="learn-more" onclick="" >
+          <span class="circle" aria-hidden="true">
+         <span class="icon arrow"></span>
+         </span>
+  <span class="button-text">Get Start Here</span>
+</button>            
+</a>
           </div>
         </div>
       </div>
-    </div>
+     </div>
 }
 export default Text;
+
