@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-// import styled from "styled-components";
+import styled from "styled-components";
 import "../css/Nav.css"
 import FlightIcon from '@mui/icons-material/Flight';
 
