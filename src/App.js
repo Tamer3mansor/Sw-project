@@ -1,9 +1,13 @@
+import "../src/css/bootstrap.css"; 
 import Nav from "./componand/Nav";
 import Text from "./componand/Text";
 import Login from "./componand/Login"
-import "../src/css/bootstrap.css";
-import { Route, Routes } from "react-router-dom";
+import End from "./componand/End";
+import RegistrationForm from "./componand/RegistrationForm";
 import ProtectedRoutes from "./componand/ProtectedRoutes";
+import { Route, Routes } from "react-router-dom";
+
+
 
 
 const App = () => {
@@ -11,6 +15,8 @@ const App = () => {
     <div>
       <Nav></Nav>
       <Routes>
+      <Route path="/Registr" element={<RegistrationForm></RegistrationForm>}/>
+      <Route path="/confirm" element={<End></End>}/>
       <Route path="/login" element={<Login></Login>}/>
       <Route path="/About" element={<h1>Place holder about ppage </h1>}/>
         <Route path="/" element={<Text></Text>} />

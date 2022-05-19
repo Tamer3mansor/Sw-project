@@ -12,7 +12,7 @@ const Text = () =>
         <div className="row justify-content-md-center">
           <div className="col">
             <br></br> <br></br>
-           <a href="http://localhost:3000/Login" target="-blank">
+           <a href="http://localhost:3000/Registr" target="-blank">
           <button class="learn-more" onclick="" >
           <span class="circle" aria-hidden="true">
          <span class="icon arrow"></span>
