@@ -1,0 +1,112 @@
+[
+  {
+    "flightNbr": "6E-278",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "deptTime": "20:00",
+    "deptCity": "Cairo",
+    "arivalTime": "22:00",
+    "arivalCity": "Paris",
+    "noOfStops": "0",
+    "price": "4355"
+  },
+  {
+    "flightNbr": "6E-274",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "deptTime": "16:00",
+    "deptCity": "Alexadria",
+    "arivalTime": "18:00",
+    "arivalCity": "New Delhi",
+    "noOfStops": "0",
+    "price": "6355"
+  },
+  {
+    "flightNbr": "6E-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "deptTime": "15:00",
+    "deptCity": "Cairo",
+    "arivalTime": "17:00",
+    "arivalCity": "Suoel ",
+    "noOfStops": "0",
+    "price": "10355"
+  },
+  {
+    "flightNbr": "6E-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "deptTime": "15:00",
+    "deptCity": "Cairo",
+    "arivalTime": "17:00",
+    "arivalCity": "Tokyo",
+    "noOfStops": "1",
+    "price": "2522"
+  },
+  {
+    "flightNbr": "AI-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "deptTime": "03:00",
+    "deptCity": "Alexndria",
+    "arivalTime": "05:00",
+    "arivalCity": "London",
+    "noOfStops": "0",
+    "price": "1500"
+  },
+  {
+    "flightNbr": "AI-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "deptTime": "04:00",
+    "deptCity": "Cairo",
+    "arivalTime": "06:00",
+    "arivalCity": "NewYourk",
+    "noOfStops": "0",
+    "price": "3600"
+  },
+  {
+    "flightNbr": "AI-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "deptTime": "03:00",
+    "deptCity": "Cairo",
+    "arivalTime": "05:00",
+    "arivalCity": "Berline",
+    "noOfStops": "0",
+    "price": "1500"
+  },
+  {
+    "flightNbr": "AI-275",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "deptTime": "04:00",
+    "deptCity": "Cairo",
+    "arivalTime": "06:00",
+    "arivalCity": "Mosko",
+    "noOfStops": "0",
+    "price": "3600"
+  },
+  {
+    "flightNbr": "AI-266",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/air-india-logo_0.png",
+    "deptTime": "04:00",
+    "deptCity": "Cairo",
+    "arivalTime": "06:00",
+    "arivalCity": "Dubai",
+    "noOfStops": "0",
+    "price": "5988"
+  },
+  {
+    "flightNbr": "6E-279",
+    "airlineName": "Air Egypt",
+    "airlineLogo": "https://www.logosurfer.com/wp-content/uploads/2018/03/indigo-logo_0.png",
+    "deptTime": "16:00",
+    "deptCity": "Cairo",
+    "arivalTime": "22:00",
+    "arivalCity": "Mumbai",
+    "noOfStops": "2",
+    "price": "4355"
+  }
+]
