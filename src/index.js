@@ -1,10 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { RecoilRoot } from 'recoil';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { RecoilRoot } from "recoil";
+import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import { render } from "react-dom";
+import { Router, browserHistory } from "react-router";
+import routes from "./routes";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "../node_modules/toastr/package/toastr.css";
+import "./styles/styles.css";
+
+render(
+  <Router history={browserHistory} routes={routes} />,
+  document.getElementById("app")
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RecoilRoot>
@@ -12,7 +24,6 @@ root.render(
         <App />
       </BrowserRouter>
     </RecoilRoot>
-    
   </React.StrictMode>
 );
 
