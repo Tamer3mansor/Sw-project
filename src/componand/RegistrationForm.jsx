@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { atom, useRecoilState } from 'recoil';
+import { useRecoilState } from 'recoil';
 import { emailatom, firstNameatom, lastNameatom  } from '../Atom';
 import '../css/style.css'
 function RegistrationForm() {
@@ -10,15 +10,19 @@ function RegistrationForm() {
     const [password,setPassword] = useState(null);
     const [confirmPassword,setConfirmPassword] = useState(null);
     const [submitted, setSubmitted] = useState(false);
-     const [error, setError] = useState(false);
+    const [error, setError] = useState(false);
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (password !== confirmPassword ) {
+        if (password !== confirmPassword || firstName ===null || lastName ===null || password===null || email===null) {
         setSubmitted(false);
         setError(true);
         } else {
+            console.log("equal")
+
         setSubmitted(true);
         setError(false);
+       window.open('http://localhost:3000/confirm','*****');
         }
         };
     const handleInputChange = (e) => {
@@ -60,7 +64,7 @@ function RegistrationForm() {
             style={{
             display: error ? '' : 'none',
             }}>
-            <h1>Password and confirmed password are not the same </h1>
+            <h1>Refill the data </h1>
             </div>
             );
             };
@@ -86,7 +90,7 @@ function RegistrationForm() {
                 </div>
                 <div className="password">
                     <label className="form__label" for="password">Password </label>
-                    <input className="form__input" type="password"  id="password" value={password} onChange = {(e) => handleInputChange(e)}  required placeholder="Password"/>
+                    <input className="form__input" type="password"  id="password" value={password} onChange = {(e) => handleInputChange(e)}   placeholder="Password" required/>
                 </div>
                 <div className="confirm-password">
                     <label className="form__label" for="confirmPassword">Confirm Password </label>

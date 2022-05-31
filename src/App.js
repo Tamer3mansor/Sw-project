@@ -6,6 +6,7 @@ import End from "./componand/End";
 import RegistrationForm from "./componand/RegistrationForm";
 import ProtectedRoutes from "./componand/ProtectedRoutes";
 import { Route, Routes } from "react-router-dom";
+import About from "./componand/About";
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
       <Route path="/Registr" element={<RegistrationForm></RegistrationForm>}/>
       <Route path="/confirm" element={<End></End>}/>
       <Route path="/login" element={<Login></Login>}/>
-      <Route path="/About" element={<h1>Place holder about ppage </h1>}/>
+      <Route path="/About" element={<About></About>}/>
         <Route path="/" element={<Text></Text>} />
         <Route element = {<ProtectedRoutes/>}>
         <Route path="/profile" element={<h1>put profile componand here</h1>} />  
@@ -26,6 +27,7 @@ const App = () => {
         </Route>
         <Route path="*" element={<h1>Page Not Found</h1>}/> 
       </Routes>
+      
      
     </div>
   );

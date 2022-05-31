@@ -1,4 +1,5 @@
 import "../css/txt.css";
+import "../../src/css/bootstrap.css"; 
 const Text = () =>
 {
     return <div >

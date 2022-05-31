@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { atom, useRecoilState } from 'recoil';
+import {  useRecoilState } from 'recoil';
 import { emailatom, firstNameatom, lastNameatom  } from '../Atom';
 import '../css/style.css'
 function End() {
@@ -7,8 +7,11 @@ function End() {
     const [firstName] = useRecoilState(firstNameatom);
     const [lastName] = useRecoilState(lastNameatom);
     const [email] = useRecoilState(emailatom);
-    const [credit,setcredite] = useState(null);
-  
+    const [credit] = useState(null);
+  function vd()
+  {
+      console.log(firstName , lastName ,credit ,email);
+  }
     return(
         <div>
         <div className="messages">
@@ -30,11 +33,11 @@ function End() {
                 </div>
                 <div className="password">
                     <label className="form__label" for="card">Card </label>
-                    <input className="form__input" type="password"  id="credit" value={credit}  placeholder="Credit Card "/>
+                    <input className="form__input" type="text"  id="credit"   placeholder="Credit Card "/>
                 </div>
             </div>
             <div class="footer">
-                <button  type="submit" class="btn">Confirm</button>
+                <button  type="submit" class="btn" onClick={vd}>Confirm</button>
                
 
             </div>
