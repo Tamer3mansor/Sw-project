@@ -7,13 +7,21 @@ import RegistrationForm from "./componand/RegistrationForm";
 import ProtectedRoutes from "./componand/ProtectedRoutes";
 import { Route, Routes } from "react-router-dom";
 import About from "./componand/About";
-
+import "../src/css/bootstrap.css"; 
+import './App.css';
+import FlightApp from './componand/FlightApp';
+import React from 'react';
 
 
 
 const App = () => {
   return (
-    <div>
+     <div>
+       <React.Fragment>
+    <FlightApp />
+
+  </React.Fragment>
+   
       <Nav></Nav>
       <Routes>
       <Route path="/Registr" element={<RegistrationForm></RegistrationForm>}/>
