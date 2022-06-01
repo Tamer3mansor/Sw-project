@@ -13,10 +13,6 @@ import About from "./componand/About";
 
 const App = () => {
   return (
-    <><React.Fragment>
-      <FlightApp />
-
-    </React.Fragment>
     <div>
     <Nav></Nav>
       <Routes>
@@ -24,16 +20,17 @@ const App = () => {
       <Route path="/confirm" element={<End></End>}/>
       <Route path="/login" element={<Login></Login>}/>
       <Route path="/About" element={<About></About>}/>
-        <Route path="/" element={<Text></Text>} />
-        <Route element = {<ProtectedRoutes/>}>
+      <Route path="/search" element={<FlightApp/>}/>
+      <Route path="/" element={<Text></Text>} />
+      <Route element = {<ProtectedRoutes/>}>
         <Route path="/profile" element={<h1>put profile componand here</h1>} />  
         <Route path="/bookings" element={<h1>put bookings componand here</h1>} />  
-        </Route>
+      </Route>
         <Route path="*" element={<h1>Page Not Found</h1>}/> 
       </Routes>
 
       </div>
-      // </>
+      
   );
 };
 

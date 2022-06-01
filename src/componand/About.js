@@ -51,7 +51,7 @@ const About=() =>{
         <div className="col-3">
         <div className='card'>
         <i class="fa-solid fa-forward-fast"></i>
-        <p> Just <br></br>>>register <br></br>>> choose <br></br>>> book <br></br>>> travel</p>
+        <p> Just <br></br>{'>>'} register <br></br>{'>>'} choose <br></br>{'>>'} book <br></br>{'>>'} travel</p>
         </div>
         </div>
         </div>

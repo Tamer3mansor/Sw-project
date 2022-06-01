@@ -32,7 +32,7 @@ const Nav = () => {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
-           <a href='http://localhost:3000/About'>
+           <a href='/About'>
               <IconButton
               size="large"
               edge="start"

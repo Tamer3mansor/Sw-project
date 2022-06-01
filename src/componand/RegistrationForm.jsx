@@ -22,7 +22,7 @@ function RegistrationForm() {
 
         setSubmitted(true);
         setError(false);
-       window.open('http://localhost:3000/confirm','*****');
+       window.open('/search');
         }
         };
     const handleInputChange = (e) => {
@@ -99,8 +99,8 @@ function RegistrationForm() {
             </div>
             <div class="footer">
                 <button onClick={handleSubmit} type="submit" class="btn">Register</button>
-                <a href="http://localhost:3000/Login"> Have Account ?</a>
-                <a href="**********"> AS Guest ?</a>
+                <a href="/Login"> Have Account ?</a>
+                <a href="/search"> AS Guest ?</a>
 
             </div>
         </div>

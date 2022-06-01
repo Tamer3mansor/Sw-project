@@ -3,6 +3,7 @@ import { FaPlaneArrival, FaPlaneDeparture, FaChild } from "react-icons/fa";
 import { GiPerson } from "react-icons/gi";
 import { useForm } from "react-hook-form";
 
+
 const FlightApp = () => {
   // handle event
   const {
@@ -113,16 +114,16 @@ const FlightApp = () => {
                         <option value="" selected disabled hidden>
                           --Select Airport--
                         </option>
-                        <option value="ENIA">
+                        <option value="CAI">
                           {" "}
-                          England Newcastle International Airport
+                          Cairo International Airport
                         </option>
-                        <option value="INIA">
+                        <option value="SPX">
                           {" "}
-                          Italy Naples International Airport
+                          ISphinx International Airport
                         </option>
-                        <option value="MMA"> Malaysia Mulu Airport</option>
-                        <option value="KMA"> Kenya Malindi Airport</option>
+                        <option value="HRG"> Hurghada International Airport</option>
+                        <option value="LXR"> Luxor International Airport</option>
                       </select>
                       <FaPlaneDeparture className="text-4xl absolute left-5 top-10 " />
                     </div>
@@ -156,16 +157,16 @@ const FlightApp = () => {
                         <option value="" selected disabled hidden>
                           --Select Airport--
                         </option>
-                        <option value="ENIA">
+                        <option value="CAI">
                           {" "}
-                          England Newcastle International Airport
+                          Cairo International Airport
                         </option>
-                        <option value="INIA">
+                        <option value="SPX">
                           {" "}
-                          Italy Naples International Airport
+                          ISphinx International Airport
                         </option>
-                        <option value="MMA"> Malaysia Mulu Airport</option>
-                        <option value="KMA"> Kenya Malindi Airport</option>
+                        <option value="HRG"> Hurghada International Airport</option>
+                        <option value="LXR"> Luxor International Airport</option>
                       </select>
                       <FaPlaneArrival className="text-4xl absolute left-5 top-10 " />
                     </div>
