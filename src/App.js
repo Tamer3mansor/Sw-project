@@ -15,7 +15,7 @@ const App = () => {
     <><React.Fragment>
       <FlightApp />
 
-    </React.Fragment><div>
+    </React.Fragment> <div> 
         <Nav></Nav>
         <Routes>
           <Route path="/Registr" element={<RegistrationForm></RegistrationForm>} />
