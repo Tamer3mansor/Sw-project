@@ -6,38 +6,31 @@ import End from "./componand/End";
 import RegistrationForm from "./componand/RegistrationForm";
 import ProtectedRoutes from "./componand/ProtectedRoutes";
 import { Route, Routes } from "react-router-dom";
-import About from "./componand/About";
-import "../src/css/bootstrap.css"; 
 import './App.css';
 import FlightApp from './componand/FlightApp';
 import React from 'react';
 
-
-
 const App = () => {
   return (
-     <div>
-       <React.Fragment>
-    <FlightApp />
+    <><React.Fragment>
+      <FlightApp />
 
-  </React.Fragment>
-   
-      <Nav></Nav>
-      <Routes>
-      <Route path="/Registr" element={<RegistrationForm></RegistrationForm>}/>
-      <Route path="/confirm" element={<End></End>}/>
-      <Route path="/login" element={<Login></Login>}/>
-      <Route path="/About" element={<About></About>}/>
-        <Route path="/" element={<Text></Text>} />
-        <Route element = {<ProtectedRoutes/>}>
-        <Route path="/profile" element={<h1>put profile componand here</h1>} />  
-        <Route path="/bookings" element={<h1>put bookings componand here</h1>} />  
-        </Route>
-        <Route path="*" element={<h1>Page Not Found</h1>}/> 
-      </Routes>
-      
-     
-    </div>
+    </React.Fragment><div>
+        <Nav></Nav>
+        <Routes>
+          <Route path="/Registr" element={<RegistrationForm></RegistrationForm>} />
+          <Route path="/confirm" element={<End></End>} />
+          <Route path="/login" element={<Login></Login>} />
+          <Route path="/About" element={<h1>Place holder about ppage </h1>} />
+          <Route path="/" element={<Text></Text>} />
+          <Route element={<ProtectedRoutes />}>
+            <Route path="/profile" element={<h1>put profile componand here</h1>} />
+            <Route path="/bookings" element={<h1>put bookings componand here</h1>} />
+          </Route>
+          <Route path="*" element={<h1>Page Not Found</h1>} />
+        </Routes>
+
+      </div></>
   );
 };
 
