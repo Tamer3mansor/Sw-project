@@ -9,6 +9,7 @@ import "../css/Nav.css"
 import FlightIcon from '@mui/icons-material/Flight';
 
 const Nav = () => {
+  
 
   //   const Button = styled.button`
   //   border-width: 0px;
@@ -31,15 +32,17 @@ const Nav = () => {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton
+           <a href='http://localhost:3000/About'>
+              <IconButton
               size="large"
               edge="start"
-              color="inherit"
+              color='secondary'
               aria-label="menu"
               sx={{ mr: 2 }}
+              
             >
               <FlightIcon />
-            </IconButton>
+            </IconButton></a>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Flight Booking App
             </Typography>
