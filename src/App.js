@@ -16,7 +16,7 @@ const App = () => {
     <div>
     <Nav></Nav>
       <Routes>
-      <Route path="/Registr" element={<RegistrationForm></RegistrationForm>}/>
+      <Route path="/Register" element={<RegistrationForm></RegistrationForm>}/>
       <Route path="/confirm" element={<End></End>}/>
       <Route path="/login" element={<Login></Login>}/>
       <Route path="/About" element={<About></About>}/>

@@ -13,7 +13,7 @@ const Text = () =>
         <div className="row justify-content-md-center">
           <div className="col">
             <br></br> <br></br>
-           <a href="/Registr" target="-blank">
+           <a href="/Register" target="-blank">
           <button class="learn-more" onclick="" >
           <span class="circle" aria-hidden="true">
          <span class="icon arrow"></span>
